@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" ></style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock - Scissors - Paper</h1>
+        <div class="input-wrapper">
+            <div class="user">
+                <h2>User</h2>
+                <div class="user-input">
+                    <button id="btnRock" title="Rock"><img src="./img/rock.png"></button>
+                    <button id="btnScissors" title="Scissors"><img src="./img/scissors.png"></button>
+                    <button id="btnPaper" title="Paper"><img src="./img/paper.png"></button>
+                    <div id="userWins" class="wins"></div>
+                </div>
+            </div>
+            <div class="result">
+                <div class="round-number">Round: <span id="roundNumber"></span></div>
+                <div class="round-result" id="roundResult"></div>
+                <div class="game-result" id="gameResult"></div>
+                <button id="btnRestart" style="display: none">Restart Game</button>
+            </div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <div class="computer-input">
+                    <div id="computerWins" class="wins"></div>
+                    <button id="btnComputerRock" title="Rock"><img src="./img/rock.png"></button>
+                    <button id="btnComputerScissors" title="Scissors"><img src="./img/scissors.png"></button>
+                    <button id="btnComputerPaper" title="Paper"><img src="./img/paper.png"></button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./rockscissorspaper.js" ></script>
+</body>
+</html>

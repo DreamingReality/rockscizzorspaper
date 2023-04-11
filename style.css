@@ -1,0 +1,79 @@
+.container {
+    padding: 20px 80px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user-input,
+.computer-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user button {
+    background-color: limegreen;
+    border: 3px solid limegreen;
+}
+
+.user button:hover,
+.user button.selected {
+    background-color: #006c00;
+    border-color: #006c00;
+}
+
+.computer button {
+    background-color: #03a9f4;
+    border: 3px solid #03a9f4;
+}
+
+.computer button.selected {
+    background-color: #004462;
+    border: 3px solid #004462;
+}
+
+.result {
+    text-align: center;
+}
+
+.round-number {
+    font-size: 18px;
+}
+
+.round-result {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.game-result {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.round-result.user,
+.game-result.user {
+    color: limegreen;
+}
+
+.round-result.computer,
+.game-result.computer {
+    color: #03a9f4;
+}
+
+.wins {
+    font-size: 44px;
+    font-weight: bold;
+}
